@@ -1,0 +1,46 @@
+<ion-header translucent no-border>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button>
+        <ion-icon slot="start" name="ios-arrow-back"></ion-icon>
+        Profile
+      </ion-button>
+      <ion-button routerLink="/guidelines">
+        <ion-icon slot="end" name="ios-arrow-back"></ion-icon>
+        Guidelines
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button routerLink="/login">
+        <ion-icon slot="end" name="ios-arrow-back"></ion-icon>
+        Logout
+      </ion-button>
+    </ion-buttons>
+
+    <ion-title>&nbsp;</ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon slot="icon-only" src="../../assets/image/profile.jpg"></ion-icon>
+       </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen="true" slot="fixed" >
+    <div class="card">
+      <div class="header">
+        <div class="avatar">
+          <img src="../../assets/image/profile.jpg" alt="">
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="user-meta ion-text-center">
+          <h3 class="playername">Chris Evans</h3>
+          <h5 class="country">Switzerland</h5>
+        </div>
+
+        <ion-button expand="full" color="primary">https://github.com/chrisevans</ion-button>
+        <ion-button expand="full" color="secondary">@ChrisEvans on Twitter</ion-button>
+      </div>
+    </div>
+</ion-content>
